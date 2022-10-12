@@ -13,7 +13,7 @@ pip3 install requirements.txt
 
 ## How to Use
 - Instalar todas as dependências do script com o comando acima.
-- Criar um webhook em seu canal do discord e colocar na variavel *webhook_discord* na linha 6 do script.
+- Criar um webhook em seu canal do discord e colocar na variavel *webhook_discord* na linha 5 do script.
 - Executar o script e criar um webhook no Gophish e adicionar a url do Script nele.
 ![](/images/img3.png)
 
