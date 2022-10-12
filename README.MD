@@ -7,7 +7,7 @@ Ao executar o script, ele irá abrir um listener http na porta 5000 que servirá
 - Python 3
 - Blibliotecas necessárias:
 ```bash
-pip3 install requirements.txt
+pip3 install -r requirements.txt
 ```
 
 
