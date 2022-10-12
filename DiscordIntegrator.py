@@ -17,7 +17,7 @@ def get_webhook():
         resposta_discord = requests.post(webhook_discord, data=mensagem, headers=headers)
         
         #se precisar debugar resposta http do discord
-        #print(res.status_code)
+        #print(resposta_discord.status_code)
         return 'success', 200
     else:
             abort(400)
