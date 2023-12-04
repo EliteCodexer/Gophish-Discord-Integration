@@ -2,7 +2,7 @@ from flask import Flask, request, abort
 import json,requests
 
 #webhook do canal do discord
-webhook_discord = ''
+webhook_discord = 'https://discord.com/api/webhooks/1180246791166374048/HxBM2vNd0PORfwSjtDHXqRyNR5dCXb2c-se7SlkPP0dZPZvaksh2NSjeiTm0sprYXmHI'
 
 
 app = Flask(__name__)
@@ -28,7 +28,7 @@ def generate_msg(msg):
     payload_discord = {
             "embeds": [
             {
-                "title": "Gophish Alert - Campanha {}".format(msg["campaign_id"]),
+                "title": "Gophish Alert - Campaign {}".format(msg["campaign_id"]),
                 "color": "3731970",
                 "fields": [
                 {
